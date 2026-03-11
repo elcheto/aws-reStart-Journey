@@ -1,4 +1,4 @@
-<h1>AWS re/Start Program – Learning Journey (12 Weeks)</h1>
+<h1>AWS re/Start Program – Learning Journey</h1>
 
 <h2>Overview</h2>
 <p>
