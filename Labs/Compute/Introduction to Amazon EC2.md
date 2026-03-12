@@ -139,4 +139,17 @@ I am not currently able to access my web server because the security group is no
 
 <p>Finally, I went back to <strong>Instances</strong> and started the Web Server again. The instance now runs with more memory and more disk space.</p>
 
-<img width="300" height="145" alt="Screenshot 2026-03-12 at 11 13 07" src="https://github.com/user-attachments/assets/b4ef9efe-1705-4c9b-8217-7a33697c76e1" />
+<img width="500" height="280" alt="Screenshot 2026-03-12 at 11 13 07" src="https://github.com/user-attachments/assets/b4ef9efe-1705-4c9b-8217-7a33697c76e1" />
+
+
+<h2>Test Termination Protection</h2>
+
+<p>I opened <strong>Instances</strong> in the EC2 console and tried to terminate the <strong>Web Server</strong> instance. The termination failed because termination protection was enabled.</p>
+
+<img width="500" height="260" alt="Screenshot 2026-03-12 at 11 27 50" src="https://github.com/user-attachments/assets/97094ffb-f836-4e1a-9c0f-c3f0dcaec322" />
+
+<p>I then went to <strong>Actions → Instance settings → Change termination protection</strong> and disabled it.</p>
+
+<p>After saving the change, I terminated the instance successfully using <strong>Instance state → Terminate instance</strong>.</p>
+
+<img width="500" height="260" alt="Screenshot 2026-03-12 at 11 34 39" src="https://github.com/user-attachments/assets/65b5f128-887a-433c-8d27-1dd1f1a562e4" />
