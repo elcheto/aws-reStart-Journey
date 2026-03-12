@@ -14,5 +14,5 @@ Resize your Amazon EC2 instance to scale
 Test termination protection
 Terminate your EC2 instance
 
-<img width="713.5" height="260.5" alt="Screenshot 2026-03-12 at 08 42 44" src="https://github.com/user-attachments/assets/9092d999-7fda-4e6f-8c4f-f239ad42d83f" />
+<img width="357" height="130" alt="Screenshot 2026-03-12 at 08 42 44" src="https://github.com/user-attachments/assets/9092d999-7fda-4e6f-8c4f-f239ad42d83f" />
 
