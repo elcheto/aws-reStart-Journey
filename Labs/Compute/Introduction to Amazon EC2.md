@@ -100,3 +100,8 @@ echo '&lt;html&gt;&lt;h1&gt;Hello From Your Web Server!&lt;/h1&gt;&lt;/html&gt;'
 
 <img width="1440" height="900" alt="Screenshot 2026-03-12 at 09 00 28" src="https://github.com/user-attachments/assets/b525855c-6f22-459c-8baa-3aa09bab6bf8" />
 I am not currently able to access my web server because the security group is not permitting inbound traffic on port 80, which is used for HTTP web requests.
+
+
+<img width="1090" height="439" alt="Screenshot 2026-03-12 at 09 10 30" src="https://github.com/user-attachments/assets/0e8fa945-5de5-4792-9e1d-d42e51633633" />
+Worked after add the HTTP port 80
+
