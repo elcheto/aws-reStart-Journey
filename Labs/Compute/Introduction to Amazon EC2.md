@@ -97,8 +97,10 @@ echo '&lt;html&gt;&lt;h1&gt;Hello From Your Web Server!&lt;/h1&gt;&lt;/html&gt;'
 
 <img width="500" height="300" alt="Screenshot 2026-03-12 at 08 54 30" src="https://github.com/user-attachments/assets/554a3fe1-27a6-4b6c-9096-6737f862d9d4" />
 
+I need to add info here
 
-<img width="1440" height="900" alt="Screenshot 2026-03-12 at 09 00 28" src="https://github.com/user-attachments/assets/b525855c-6f22-459c-8baa-3aa09bab6bf8" />
+<img width="350" height="230" alt="Screenshot 2026-03-12 at 09 00 28" src="https://github.com/user-attachments/assets/b525855c-6f22-459c-8baa-3aa09bab6bf8" />
+
 I am not currently able to access my web server because the security group is not permitting inbound traffic on port 80, which is used for HTTP web requests.
 
 
