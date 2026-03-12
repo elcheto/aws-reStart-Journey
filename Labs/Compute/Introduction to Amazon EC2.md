@@ -104,7 +104,6 @@ I need to add info here
 I am not currently able to access my web server because the security group is not permitting inbound traffic on port 80, which is used for HTTP web requests.
 
 
-<img width="500" height="210" alt="Screenshot 2026-03-12 at 09 10 30" src="https://github.com/user-attachments/assets/0e8fa945-5de5-4792-9e1d-d42e51633633" />
 
 <h2>Enable Access to the Web Server</h2>
 
@@ -130,3 +129,14 @@ I am not currently able to access my web server because the security group is no
 
 <p>The page now shows: <strong>Hello From Your Web Server!</strong></p>
 
+<img width="700" height="310" alt="Screenshot 2026-03-12 at 09 10 30" src="https://github.com/user-attachments/assets/0e8fa945-5de5-4792-9e1d-d42e51633633" />
+
+<h2>Resize the EC2 Instance</h2>
+
+<p>I first stopped the <strong>Web Server</strong> instance from the EC2 console. After the instance status showed <strong>stopped</strong>, I changed the instance type from <strong>t3.micro</strong> to <strong>t3.small</strong>.</p>
+
+<p>Next, I opened <strong>Volumes</strong> under Elastic Block Store and modified the disk size from <strong>8 GiB</strong> to <strong>10 GiB</strong>.</p>
+
+<p>Finally, I went back to <strong>Instances</strong> and started the Web Server again. The instance now runs with more memory and more disk space.</p>
+
+<img width="300" height="145" alt="Screenshot 2026-03-12 at 11 13 07" src="https://github.com/user-attachments/assets/b4ef9efe-1705-4c9b-8217-7a33697c76e1" />
