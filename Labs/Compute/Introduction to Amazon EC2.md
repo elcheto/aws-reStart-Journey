@@ -110,7 +110,6 @@ I am not currently able to access my web server because the security group is no
 
 <p>After launching the EC2 instance, I allow web traffic so the server page could be opened in a browser.</p>
 
-<ol>
   <li>Returned to the <strong>EC2 Management Console</strong>.</li>
   <li>In the left menu, opened <strong>Security Groups</strong> under <strong>Network & Security</strong>.</li>
   <li>Selected <strong>Web Server security group</strong>.</li>
