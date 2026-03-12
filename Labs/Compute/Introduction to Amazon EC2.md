@@ -18,7 +18,7 @@ Terminate your EC2 instance
 
 
 <h2>Task 1: Launch an EC2 Instance</h2>
-<p>In this task, you will launch an Amazon EC2 instance with termination protection and set up a simple web server using a user data script.</p>
+<p>In this task, I launched an Amazon EC2 instance with termination protection and set up a simple web server using a user data script.</p>
 
 <h3>Open EC2</h3>
 <ol>
