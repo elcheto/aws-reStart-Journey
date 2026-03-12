@@ -94,3 +94,5 @@ echo '&lt;html&gt;&lt;h1&gt;Hello From Your Web Server!&lt;/h1&gt;&lt;/html&gt;'
 </ol>
 
 <p>You can now see your instance details, including the public DNS.</p>
+
+<img width="500" height="300" alt="Screenshot 2026-03-12 at 08 54 30" src="https://github.com/user-attachments/assets/554a3fe1-27a6-4b6c-9096-6737f862d9d4" />
