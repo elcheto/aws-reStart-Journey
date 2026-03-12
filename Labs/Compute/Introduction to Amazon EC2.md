@@ -99,11 +99,35 @@ echo '&lt;html&gt;&lt;h1&gt;Hello From Your Web Server!&lt;/h1&gt;&lt;/html&gt;'
 
 I need to add info here
 
-<img width="350" height="230" alt="Screenshot 2026-03-12 at 09 00 28" src="https://github.com/user-attachments/assets/b525855c-6f22-459c-8baa-3aa09bab6bf8" />
+<img width="500" height="350" alt="Screenshot 2026-03-12 at 09 00 28" src="https://github.com/user-attachments/assets/b525855c-6f22-459c-8baa-3aa09bab6bf8" />
 
 I am not currently able to access my web server because the security group is not permitting inbound traffic on port 80, which is used for HTTP web requests.
 
 
-<img width="1090" height="439" alt="Screenshot 2026-03-12 at 09 10 30" src="https://github.com/user-attachments/assets/0e8fa945-5de5-4792-9e1d-d42e51633633" />
-Worked after add the HTTP port 80
+<img width="500" height="210" alt="Screenshot 2026-03-12 at 09 10 30" src="https://github.com/user-attachments/assets/0e8fa945-5de5-4792-9e1d-d42e51633633" />
+
+<h2>Enable Access to the Web Server</h2>
+
+<p>After launching the EC2 instance, I allow web traffic so the server page could be opened in a browser.</p>
+
+<ol>
+  <li>Returned to the <strong>EC2 Management Console</strong>.</li>
+  <li>In the left menu, opened <strong>Security Groups</strong> under <strong>Network & Security</strong>.</li>
+  <li>Selected <strong>Web Server security group</strong>.</li>
+  <li>Opened the <strong>Inbound rules</strong> tab.</li>
+  <li>Clicked <strong>Edit inbound rules</strong>.</li>
+  <li>Clicked <strong>Add rule</strong> and set:</li>
+</ol>
+
+<ul>
+  <li><strong>Type:</strong> HTTP</li>
+  <li><strong>Source:</strong> Anywhere-IPv4</li>
+</ul>
+
+<ol start="7">
+  <li>Clicked <strong>Save rules</strong>.</li>
+  <li>Went back to the browser tab with the web server and refreshed the page.</li>
+</ol>
+
+<p>The page now shows: <strong>Hello From Your Web Server!</strong></p>
 
