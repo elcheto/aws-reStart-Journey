@@ -314,6 +314,7 @@ ec2-35-11-22-33.us-west-2.compute.amazonaws.com
 
 Paste the DNS name into a new web browser tab, and then press Enter.
 
+<img width="600" height="230" alt="Screenshot 2026-03-16 at 13 51 21" src="https://github.com/user-attachments/assets/d385873b-4f8d-40ba-a318-b448f5b5e495" />
 
 A web page should be displayed, which demonstrates that the web server was successfully launched and configured.
 
