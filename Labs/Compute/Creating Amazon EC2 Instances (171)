@@ -314,7 +314,8 @@ ec2-35-11-22-33.us-west-2.compute.amazonaws.com
 
 Paste the DNS name into a new web browser tab, and then press Enter.
 
-		A web page should be displayed, which demonstrates that the web server was successfully launched and configured.
+
+A web page should be displayed, which demonstrates that the web server was successfully launched and configured.
 
 		You can also see the instance on the Amazon EC2 management console.
 
