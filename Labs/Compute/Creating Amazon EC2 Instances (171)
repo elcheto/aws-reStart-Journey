@@ -1,1 +1,21 @@
+<h2>Creating Amazon EC2 Instances</h2>
 
+<h3>Overview</h3>
+<p>
+This lab demonstrates different ways to launch <strong>Amazon EC2</strong> instances. 
+First, an EC2 instance is created using the <strong>AWS Management Console</strong> and used as a 
+<strong>bastion host</strong>. Then, you connect to it securely with <strong>EC2 Instance Connect</strong> 
+and use the <strong>AWS CLI</strong> to launch another EC2 instance that acts as a web server.
+</p>
+
+<h3>Architecture</h3>
+<p>
+A bastion host inside a VPC is used to securely access and create a web server EC2 instance.
+</p>
+
+<h3>Objectives</h3>
+<ul>
+  <li>Launch an EC2 instance using the AWS Management Console</li>
+  <li>Connect to the EC2 instance using EC2 Instance Connect</li>
+  <li>Launch another EC2 instance using the AWS CLI</li>
+</ul>
