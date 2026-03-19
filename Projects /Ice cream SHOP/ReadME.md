@@ -12,6 +12,7 @@ Using **AWS S3**, **CloudFront**, and **Cognito**, we are developing a secure an
 - Provides a professional online presence
 
 
+
 ## 1. Start Sandbox
 
 1. Click **Start Lab** to launch the lab.
@@ -21,6 +22,7 @@ Using **AWS S3**, **CloudFront**, and **Cognito**, we are developing a secure an
  <img width="600" height="350" alt="image (2)" src="https://github.com/user-attachments/assets/b9b63ee4-3ce2-4734-8671-1077d521a84a" />
 
 Management Console
+
 
 ## 2. Access AWS Management Console
 
@@ -32,6 +34,7 @@ Management Console
 4. Arrange the AWS Console and these instructions side by side for easier setup.
 
  <img width="600" height="3500" alt="2" src="https://github.com/user-attachments/assets/134da7e9-9133-49cd-872a-29f0e45f5c9c" />
+
 
 
 ## 3. Create an S3 Bucket
@@ -57,6 +60,7 @@ Management Console
 <img width="600" height="350" alt="6" src="https://github.com/user-attachments/assets/53cafbfd-2e02-49a3-905a-825c359bfb7f" />
 
 
+
 ## 4. Enable Static Website Hosting
 
 1. Open the S3 console: https://console.aws.amazon.com/s3/
@@ -77,6 +81,7 @@ Management Console
 8. Enter `index.html` as the **Index document** (case-sensitive).
 9. Click **Save changes**.
 10. Copy the **Website endpoint URL** to test your site.
+
 
 
 ## 5. Add Bucket Policy (Public Access)
@@ -109,6 +114,7 @@ Upload your `index.html` file to your S3 bucket.
 <img width="600" height="350" alt="12" src="https://github.com/user-attachments/assets/e187e30b-abf7-42c5-9444-5e0e7cf39740" />
 
 
+
 ## 7. Launch and Test the Website
 
 1. Go to your S3 bucket.
@@ -121,30 +127,38 @@ Upload your `index.html` file to your S3 bucket.
 <img width="600" height="350" alt="13" src="https://github.com/user-attachments/assets/94136b4f-c867-4a90-b2d0-e5d1e015c004" />
 
 
+
 ## 8. Website Verification
 
-- Opened the S3 **Website endpoint URL** in the browser  
-  <!-- Add screenshot -->
+- Opened the S3 **Website endpoint URL** in the browser
+- 
+<img width="600" height="350" alt="13" src="https://github.com/user-attachments/assets/94136b4f-c867-4a90-b2d0-e5d1e015c004" />
+
 
 - **Home (Index Page):** confirmed the main page loads correctly
   
   <img width="600" height="350" alt="Screenshot 2026-03-19 at 13 51 35" src="https://github.com/user-attachments/assets/f77ac43a-f4e0-42ae-a1e9-ea0a753ef6d8" />
 
+
 - **About the Shop:** verified business information is displayed
    
   <img width="600" height="350" alt="13" src="https://github.com/user-attachments/assets/d298af99-5542-473f-842a-75bc92b8ac39" />
+
 
 - **Menu Highlights:** checked featured items are visible
   
 <img width="600" height="350" alt="15" src="https://github.com/user-attachments/assets/e9134a1c-f8d5-40aa-8122-99dc86adcd48" />
 
+
 - **Menu Variety:** ensured full menu options are displayed properly
   
 <img width="600" height="350" alt="16" src="https://github.com/user-attachments/assets/6220e5df-1676-4e7f-bdf4-134782129bef" />
 
+
 - **Customer Login:** tested login page access and functionality
   
 <img width="600" height="350" alt="17" src="https://github.com/user-attachments/assets/e41a0f9a-3c46-4750-bfd0-ea9d80bfc94a" />
+
 
 - **Book an Event:** verified booking section is accessible
   
