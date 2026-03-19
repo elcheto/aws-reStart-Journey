@@ -92,6 +92,7 @@ Management Console
 6. Ensure the bucket name is `static-website-icecream-shop`.
 7. Click **Save changes**.
 
+<img width="600" height="350" alt="11" src="https://github.com/user-attachments/assets/52a85835-15bb-4578-a153-f93abab7e52e" />
 
 
 ## 6. Configure Index Document
@@ -104,3 +105,51 @@ Upload your `index.html` file to your S3 bucket.
 4. Upload the file:
    - Drag & drop `index.html` into the bucket, **or**
    - Click **Upload** and select the file
+  
+<img width="600" height="350" alt="12" src="https://github.com/user-attachments/assets/e187e30b-abf7-42c5-9444-5e0e7cf39740" />
+
+
+## 7. Launch and Test the Website
+
+1. Go to your S3 bucket.
+2. Open the **Properties** tab.
+3. Scroll to **Static website hosting**.
+4. Copy the **Website endpoint URL**.
+5. Open the URL in your browser.
+6. Verify that your website loads correctly.
+
+<img width="600" height="350" alt="13" src="https://github.com/user-attachments/assets/94136b4f-c867-4a90-b2d0-e5d1e015c004" />
+
+
+## 8. Website Verification
+
+- Opened the S3 **Website endpoint URL** in the browser  
+  <!-- Add screenshot -->
+
+- **Home (Index Page):** confirmed the main page loads correctly
+  
+  <img width="600" height="350" alt="Screenshot 2026-03-19 at 13 51 35" src="https://github.com/user-attachments/assets/f77ac43a-f4e0-42ae-a1e9-ea0a753ef6d8" />
+
+- **About the Shop:** verified business information is displayed
+   
+  <img width="600" height="350" alt="13" src="https://github.com/user-attachments/assets/d298af99-5542-473f-842a-75bc92b8ac39" />
+
+- **Menu Highlights:** checked featured items are visible
+  
+<img width="600" height="350" alt="15" src="https://github.com/user-attachments/assets/e9134a1c-f8d5-40aa-8122-99dc86adcd48" />
+
+- **Menu Variety:** ensured full menu options are displayed properly
+  
+<img width="600" height="350" alt="16" src="https://github.com/user-attachments/assets/6220e5df-1676-4e7f-bdf4-134782129bef" />
+
+- **Customer Login:** tested login page access and functionality
+  
+<img width="600" height="350" alt="17" src="https://github.com/user-attachments/assets/e41a0f9a-3c46-4750-bfd0-ea9d80bfc94a" />
+
+- **Book an Event:** verified booking section is accessible
+  
+<img width="600" height="350" alt="18" src="https://github.com/user-attachments/assets/29b738b2-aeed-45df-8aa6-0682ed0cf691" />
+
+- **Contact Us:** confirmed contact details/form are working
+  
+<img width="600" height="350" alt="19" src="https://github.com/user-attachments/assets/c993238c-8419-443c-ae5f-d337834140fc" />
