@@ -29,6 +29,9 @@ chmod 400 labsuser.pem
 ssh -i labsuser.pem ec2-user@<public-ip>
 Type yes when prompted to authorize the connection.
 
+<img width="582" height="708" alt="1" src="https://github.com/user-attachments/assets/26d0ddc4-eeae-4487-94fa-acf1b4288f15" />
+
+
 💻 Lab Tasks
 
 ## Task 1: The tee Command
@@ -51,6 +54,7 @@ Factory, 5, Tokyo
 Sort: sort test.csv
 
 Filter: grep Paris test.csv
+<img width="385" height="87" alt="2" src="https://github.com/user-attachments/assets/4e64d819-8682-4916-b5e3-9021e42a757d" />
 
 ## Task 3: The cut Command
 Extract specific columns from a delimited file.
