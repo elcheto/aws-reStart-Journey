@@ -24,6 +24,9 @@ In the terminal, switch to the ec2-user:
 Bash
 sudo su -l ec2-user
 pwd
+
+<img width="500" height="300" alt="Task 1" src="https://github.com/user-attachments/assets/87673e0a-f9b5-445a-ad10-4a7a0b489f8f" />
+
 ### ⚙️ Task 2: Configure AWS CLI
 Initialize the CLI with your lab credentials:
 
@@ -34,6 +37,9 @@ Access Key / Secret Key: Copy from the lab "Details" panel.
 Default region: us-west-2
 
 Output format: json
+
+<img width="500" height="100" alt="Task 2" src="https://github.com/user-attachments/assets/05abbd17-8c95-4144-8023-d5529f14e266" />
+
 
 ### 📦 Task 3: Create the S3 Bucket
 Bucket names must be globally unique. Use a pattern like initial-lastname-123.
@@ -54,7 +60,8 @@ aws iam list-policies --query "Policies[?contains(PolicyName,'S3FullAccess')].Ar
 
 # Attach it (replace <PolicyArn> with the result from above)
 aws iam attach-user-policy --user-name awsS3user --policy-arn <PolicyArn>
-🔓 Task 5: Adjust S3 Public Access
+
+### 🔓 Task 5: Adjust S3 Public Access
 To host a website, the bucket must allow public reads:
 
 In the S3 Console, select your bucket.
@@ -63,7 +70,7 @@ Permissions Tab: * Disable Block all public access.
 
 Edit Object Ownership and enable ACLs.
 
-🌐 Task 6 & 7: Deploy the Website
+### 🌐 Task 6 & 7: Deploy the Website
 Extract Files:
 
 Bash
@@ -80,7 +87,7 @@ Bash
 aws s3 cp . s3://<your-bucket-name>/ --recursive --acl public-read
 View Site: Find the Bucket website endpoint at the bottom of the Properties tab in the S3 console.
 
-📜 Task 8: Automate with a Script
+### 📜 Task 8: Automate with a Script
 Create a script to push local changes to S3 automatically.
 
 Create Script: vi ~/update-website.sh
