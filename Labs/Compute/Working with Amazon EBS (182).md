@@ -34,3 +34,30 @@ AWS  indicates that AWS lab resources are ready.
 Wait for the lab to be ready before proceeding.
 
 At the top of these instructions, choose AWS  to open the AWS Management Console on a new browser tab. The system automatically signs you in.
+
+<img width="500" height="300" alt="Screenshot 2026-03-23 at 14 45 42" src="https://github.com/user-attachments/assets/be22584e-296f-4f33-af78-33b41079001b" />
+
+
+### Task 1: Creating a new EBS volume
+In this task, I created and attached an EBS volume to a new EC2 instance.
+
+1. On the AWS Management Console, in the Search bar, enter and choose EC2 to open the EC2 Management Console.
+2. In the left navigation pane, choose Instances.
+An EC2 instance named Lab has already been launched for your lab.
+3. Note the Availability Zone for the Lab instance. It looks similar to the following: us-west-2a
+4. In the left navigation pane, for Elastic Block Store, choose Volumes.
+You see an existing (8 GiB) volume that the EC2 instance is using.
+5. Choose Create volume, and configure the following options:
+Volume type: Choose General Purpose SSD (gp2).
+Size (GiB): Enter 1. 
+Availability Zone: Choose the same Availability Zone as your EC2 instance (which is us-west-2a in this case).
+6. In the Tags -optional section, choose Add tag, and configure the following options:
+Key: Enter Name.
+Value: Enter My Volume.
+7. Choose Create volume. 
+A new volume appears with the status of Creating in the Volume state column. This status soon changes to Available. You might need to choose Refresh  to see your new volume.
+
+<img width="500" height="300" alt="Screenshot 2026-03-23 at 14 48 42" src="https://github.com/user-attachments/assets/a668a15e-efa2-46d0-8bf1-a4aae5b9569c" />
+
+
+<img width="500" height="300" alt="Screenshot 2026-03-23 at 14 48 52" src="https://github.com/user-attachments/assets/69404eda-7e8a-4cc4-845c-9b50de7a3868" />
