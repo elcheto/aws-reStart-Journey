@@ -19,3 +19,18 @@ By the end of this lab, I will be able to do the following:
 - Create a snapshot of an EBS volume.
 
 - Create an EBS volume from a snapshot.
+
+## Accessing the AWS Management Console
+At the top of these instructions, choose  Start Lab to launch your lab. 
+
+Tip: If you need more time to complete the lab, choose  Start Lab again to restart the timer for the environment.
+
+The status of the lab resources is be displayed on the upper-left corner:
+
+AWS  indicates that AWS lab resources are currently being created.
+
+AWS  indicates that AWS lab resources are ready.
+
+Wait for the lab to be ready before proceeding.
+
+At the top of these instructions, choose AWS  to open the AWS Management Console on a new browser tab. The system automatically signs you in.
