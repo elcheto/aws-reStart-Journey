@@ -167,3 +167,25 @@ Upload your `index.html` file to your S3 bucket.
 - **Contact Us:** confirmed contact details/form are working
   
 <img width="600" height="350" alt="19" src="https://github.com/user-attachments/assets/c993238c-8419-443c-ae5f-d337834140fc" />
+
+
+## 9. Challenge: S3 Static Website – 403 Access Denied
+
+While deploying the static restaurant website to Amazon S3, I encountered a 403 Access Denied error when trying to access the site via the provided endpoint.
+
+<img width="500" height="270" alt="Screenshot 2026-03-23 at 12 31 16" src="https://github.com/user-attachments/assets/0a485778-8fa0-4ef5-8c24-444c4bc05a71" />
+
+## Root Cause
+The issue was related to restricted public access settings in the S3 bucket. By default, Amazon S3 blocks external access for security reasons, which prevented the website files from being publicly accessible.
+
+## Solution
+To resolve the issue, We performed the following steps:
+
+1.Disabled Block Public Access settings in the bucket permissions
+
+2.Added a Bucket Policy to allow public read access (s3:GetObject)
+
+3.Verified that Static Website Hosting was enabled and index.html was set as the index document.
+
+## Result
+After applying these changes, the website became publicly accessible via the S3 website endpoint. This challenge helped me better understand AWS security defaults and how to correctly configure permissions for static website hosting.
