@@ -61,3 +61,28 @@ A new volume appears with the status of Creating in the Volume state column. Thi
 
 
 <img width="500" height="300" alt="Screenshot 2026-03-23 at 14 48 52" src="https://github.com/user-attachments/assets/69404eda-7e8a-4cc4-845c-9b50de7a3868" />
+
+### Task 2: Attaching the volume to an EC2 instance
+I can now attach my new volume to an EC2 instance.
+
+1. Select My Volume.
+2. From the Actions menu, choose Attach volume.
+3. From the Instance dropdown list, choose the Lab instance.
+For the Device name field select /dev/sdb. Commands that you run later in this lab include this device identifier. 
+4. Choose Attach volume.
+The Volume state of your new volume is now In-use.
+
+<img width="500" height="300" alt="Screenshot 2026-03-23 at 14 57 49" src="https://github.com/user-attachments/assets/6dd5c001-fd94-44c7-918f-1a761245d0af" />
+<img width="500" height="300" alt="Screenshot 2026-03-23 at 14 58 00" src="https://github.com/user-attachments/assets/c7be5b02-da79-4a11-aeb1-00a01f763db4" />
+
+### Task 3: Connecting to the Lab EC2 instance
+In this task, I use EC2 Instance Connect to connect to the Lab EC2 instance. 
+
+1. On the AWS Management Console, in the Search bar, enter and choose EC2 to open the EC2 Management Console.
+2. In the navigation pane, choose Instances.
+3. From the list of instances, select the Lab instance.
+4. Choose Connect.
+5. On the EC2 Instance Connect tab, choose Connect.
+This option opens a new browser tab with the EC2 Instance Connect terminal window.
+
+
