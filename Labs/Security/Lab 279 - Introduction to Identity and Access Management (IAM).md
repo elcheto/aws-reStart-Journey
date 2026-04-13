@@ -1,4 +1,4 @@
-Lab Report: Using Amazon Inspector for vulnerability assesment and remediation
+# Lab Using Amazon Inspector for vulnerability assesment and remediation
 Prepared by: Elena
 
 ### Lab Overview
