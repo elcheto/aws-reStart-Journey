@@ -1,7 +1,39 @@
+## Introduction
+
+I’m excited to walk you through the technical foundation of our next-generation 3D E-Commerce platform. In the world of 3D retail, the biggest enemy is latency. If a 3D model takes ten seconds to load, we lose the customer. Therefore, we have designed this architecture on AWS to be global, resilient, and incredibly fast. Our design follows the five pillars of the AWS Well-Architected Framework: Reliability, Security, Performance, Cost, and Operational Excellence.
+
 ## 3D E-Commerce Platform Architecture on AWS
 
 <img width="750" height="540" alt="3D E-commerce" src="https://github.com/user-attachments/assets/8c82e961-6f04-4286-b022-5f6e7f753cb0" />
 
+
+### Phase 1: The Global Edge & Security Layer
+"When a user types our URL into their browser, the journey begins at Amazon Route 53. We chose this not just for DNS, but for its Latency-based Routing capabilities—directing users to the AWS region that will give them the fastest experience.
+
+To handle our massive 3D files—like high-poly furniture models—we’ve implemented Amazon CloudFront. By using a Global Content Delivery Network (CDN), we move the 'heavy lifting' away from our origin servers and store it at Edge Locations. This ensures that the 3D 'spin-and-zoom' experience is buttery smooth, regardless of the user’s physical location.
+
+For security, we’ve placed AWS WAF and AWS Shield at the very edge. This allows us to inspect incoming web requests and filter out malicious traffic like SQL injection or automated scrapers before they ever reach our internal network, effectively neutralizing threats at the perimeter."
+
+### Phase 2: The Compute & High-Availability Engine
+"As we move into the Application Tier, you’ll see our Multi-AZ (Availability Zone) strategy. We use an Application Load Balancer (ALB) to act as the traffic conductor. It constantly performs health checks; if one server instance becomes unresponsive, the ALB immediately reroutes traffic to a healthy one, ensuring 24/7 uptime.
+
+Our core logic runs on Amazon EC2 within an Auto Scaling Group. In e-commerce, traffic is never a flat line. During a product launch or a holiday sale, Auto Scaling detects the rise in CPU demand and spins up new instances in minutes. When traffic drops, it terminates those instances, ensuring we never pay for idle hardware.
+
+To complement this, we’ve integrated AWS Lambda. We use Lambda for 'short-lived' tasks like processing image uploads or sending transactional emails. This serverless approach is highly cost-efficient because we are billed only for the milliseconds the code is actually running."
+
+### Phase 3: Data Strategy & The Storage Warehouse
+"Our data strategy is divided into three specialized areas to prevent bottlenecks:
+
+Amazon S3: This is our 'Source of Truth' for all static content. S3 provides unmatched durability. We use S3 Intelligent-Tiering here to automatically move older product models to cheaper storage tiers after they haven't been accessed for 30 days, optimizing our costs without human intervention.
+
+Amazon Aurora (RDS): For our product catalog and financial transactions, we needed the power of a relational database. We chose Aurora because it provides up to five times the throughput of standard MySQL. It handles complex queries—like 'show me all red chairs currently in stock'—with ease.
+
+Amazon DynamoDB: For the shopping cart and user session state, speed is everything. DynamoDB provides single-digit millisecond performance at any scale. By offloading session data to DynamoDB, we keep our Aurora database lean and focused on critical order processing."
+
+### Phase 4: Governance & Continuous Optimization
+"Finally, we maintain total control through our Management Tier. AWS IAM (Identity and Access Management) ensures the 'Principle of Least Privilege'—nobody has more access than they need. All sensitive customer data is encrypted using keys managed by AWS KMS.
+
+We use Amazon CloudWatch for real-time observability. It doesn't just show us graphs; it triggers the automation that keeps our site alive. And lastly, we utilize AWS Trusted Advisor, which acts as a constant auditor, scanning our environment to find security gaps or opportunities to save money by identifying underutilized resources."
 
 ## AWS Services used and Why we chose each AWS service:
 
