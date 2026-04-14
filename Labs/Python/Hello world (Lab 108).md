@@ -1,7 +1,6 @@
 ## Creating a "Hello, World" Program
 
-Overview: Welcome to Intro to Programming! You’ll be using Python for these labs. Today, you’re going to write and run your very first program.
-Estimated Time: 45 minutes
+Overview: Welcome to Intro to Programming! I’ll be using Python for these labs. Today, I am going to write and run my very first program.
 
 ### 1. Launch the AWS Cloud9 IDE
 Click Start Lab at the top of these instructions. Wait for the status to say Ready, then close the panel.
