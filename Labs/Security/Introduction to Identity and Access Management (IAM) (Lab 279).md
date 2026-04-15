@@ -26,8 +26,12 @@ Set a custom password policy to strengthen account security.
 - Select all checkboxes except "Password expiration requires administrator reset."
 - Password expiration: 90 days.
 - Password reuse: Prevent reuse of 5 passwords.
+- 
+<img width="700" height="336" alt="Screenshot 2026-04-15 at 21 22 41" src="https://github.com/user-attachments/assets/4aefa6c5-1fd5-46ca-87fe-d4d169d60f3d" />
 
 Click Save changes.
+
+<img width="700" height="289" alt="Screenshot 2026-04-15 at 21 23 04" src="https://github.com/user-attachments/assets/fa167ed8-8493-42e9-911a-16a1a4c5c04e" />
 
 ### Task 2: Explore Users and Groups
 Verify pre-created IAM entities and understand their permissions.
@@ -37,10 +41,16 @@ View Users: Go to Users in the left pane. Verify user-1, user-2, and user-3 exis
 View Groups: Go to User groups and review the following:
 
 EC2-Support: Contains AmazonEC2ReadOnlyAccess (Managed Policy).
+<img width="700" height="234" alt="Screenshot 2026-04-15 at 21 28 08" src="https://github.com/user-attachments/assets/ecabffac-c6de-4d2f-a546-e899ae7cb271" />
+
 
 S3-Support: Contains AmazonS3ReadOnlyAccess (Managed Policy).
+<img width="700" height="281" alt="Screenshot 2026-04-15 at 21 27 50" src="https://github.com/user-attachments/assets/61507cfd-cf2e-4c57-b994-8b1489afb232" />
+
 
 EC2-Admin: Contains EC2-Admin-Policy (Customer Inline Policy) for starting/stopping instances.
+<img width="700" height="242" alt="Screenshot 2026-04-15 at 21 28 30" src="https://github.com/user-attachments/assets/00fc7d1f-9573-4a66-b178-2a99a979ba7f" />
+
 
 ### Task 3: Assign Users to Groups
 Map users to their respective business roles.
@@ -59,9 +69,18 @@ Validate access control by signing in as different users in an Incognito/Private
 User 1: S3 Support
 Sign-in URL: Found on the IAM Dashboard.
 
+<img width="700" height="300" alt="Screenshot 2026-04-15 at 21 39 32" src="https://github.com/user-attachments/assets/fa74e1cd-f68b-4b3f-9581-60eb8a1fb0d2" />
+
+
 Test S3: Should be able to view buckets and contents.
 
+<img width="700" height="300" alt="Screenshot 2026-04-15 at 21 40 43" src="https://github.com/user-attachments/assets/e0be658b-4618-4082-8c51-a52a9729834d" />
+
+
 Test EC2: Should see "Not Authorized" errors.
+
+<img width="700" height="300" alt="Screenshot 2026-04-15 at 21 42 12" src="https://github.com/user-attachments/assets/d1e41220-2285-41e8-9fc5-e1d0ac0be9b0" />
+
 
 User 2: EC2 Support
 Test EC2: Should be able to view (Describe) instances.
