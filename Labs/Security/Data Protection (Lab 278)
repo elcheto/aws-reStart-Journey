@@ -1,4 +1,4 @@
-# Data Protection Using Encryption
+Data Protection Using Encryption
 
 Cryptography is the conversion of communicated information into secret code to keep information confidential and private. The central function is encryption, which transforms data into an unreadable form (ciphertext). Decryption transforms it back into readable data (plaintext).
 
@@ -12,7 +12,7 @@ Encrypt plaintext files and view them in their encrypted state.
 
 Decrypt the files to recover the original content.
 
-## Objectives
+Objectives
 Create an AWS KMS encryption key
 
 Install the AWS Encryption CLI
