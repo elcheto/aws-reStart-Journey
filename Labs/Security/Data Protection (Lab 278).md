@@ -41,13 +41,22 @@ Description: Key used to encrypt and decrypt data files.
 
 Choose Next.
 
+<img width="700" height="502" alt="Lab 278_1" src="https://github.com/user-attachments/assets/3fd82492-a5df-429b-a982-8656fe0995b1" />
+
+
 Key Administrators: Search for and select the checkbox for voclabs. Choose Next.
 
 Key Usage Permissions: Search for and select the checkbox for voclabs. Choose Next.
 
 Review the settings and choose Finish.
 
+<img width="780" height="500" alt="Lab 278_2" src="https://github.com/user-attachments/assets/f3151c22-dfb5-47f2-8332-93275483040e" />
+
+
 Click the link for MyKMSKey and copy the ARN (Amazon Resource Name) to a text editor for later use.
+
+<img width="700" height="500" alt="Lab 278_3" src="https://github.com/user-attachments/assets/d496c607-ba30-4ee6-bf6a-d6305e49079f" />
+
 
 ### Task 2: Configure the File Server instance
 
