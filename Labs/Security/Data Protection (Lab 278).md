@@ -85,6 +85,9 @@ On the Vocareum page, go to AWS Details, choose Show next to AWS CLI, and copy t
 
 Return to the terminal and edit the credentials file:
 
+<img width="500" height="238" alt="Lab 278_4" src="https://github.com/user-attachments/assets/3e521a49-2fc1-460e-838b-03b0e7122c77" />
+
+
 Bash
 vi ~/.aws/credentials
 Delete the existing contents (type dd multiple times) and paste the code block you copied.
@@ -96,7 +99,11 @@ Install the AWS Encryption CLI and set your path:
 Bash
 pip3 install aws-encryption-sdk-cli
 export PATH=$PATH:/home/ssm-user/.local/bin
-Task 3: Encrypt and Decrypt Data
+
+<img width="700" height="500" alt="Lab 278_6" src="https://github.com/user-attachments/assets/79e1aa90-5961-4413-bd3d-be6fe1a171ff" />
+
+
+### Task 3: Encrypt and Decrypt Data
 Create a secret file, encrypt it using the KMS key, and then decrypt it.
 
 1. Create the Plaintext Files
@@ -133,8 +140,6 @@ ls output
 cd output
 cat secret1.txt.encrypted
 
-
-Screenshot Placeholder: > [Insert screenshot of encrypted ciphertext here]
 
 3. Decrypt the Data
 Run the decryption command:
