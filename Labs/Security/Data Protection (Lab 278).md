@@ -163,6 +163,7 @@ ls
 cat secret1.txt.encrypted.decrypted
 
 
-Screenshot Placeholder: > [Insert screenshot of decrypted plaintext here]
+<img width="700" height="435" alt="Lab 278_7" src="https://github.com/user-attachments/assets/47192177-d850-4b43-9a55-d185a29fe113" />
+
 
 ## Conclusions: I have successfully created a symmetric AWS KMS key, configured the Encryption CLI, and performed full-cycle encryption and decryption on sensitive data files.
