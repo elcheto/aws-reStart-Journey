@@ -60,12 +60,15 @@ Save and Run the file.
 
 At the prompt, enter yes and confirm the response.
 
+<img width="411" height="105" alt="Lab 114_1" src="https://github.com/user-attachments/assets/f25f0067-52af-4b21-bac5-33db89c48086" />
+
 Run the file again, enter no, and confirm the program exits with no display.
 
-Screenshots:
-[Insert Screenshot of If Statement Output Here]
+<img width="412" height="109" alt="Lab 114_2" src="https://github.com/user-attachments/assets/a8647672-c9b6-449b-afc3-bf47be295e5b" />
+
 
 ### Exercise 2: Working with the else statement
+
 In this exercise, you will improve the script by providing a reply even if the user does not want to ship a package.
 
 Add the else statement to handle the "no" condition:
@@ -77,8 +80,8 @@ Save and Run the file.
 
 Test both yes and no inputs to confirm the program provides the correct response for each.
 
-Screenshots:
-[Insert Screenshot of Else Statement Output Here]
+<img width="525" height="390" alt="Lab 114_3" src="https://github.com/user-attachments/assets/426b153a-f3eb-4a4d-828a-77c6e2ccf505" />
+
 
 ### Exercise 3: Working with the elif statement
 Improve the script by offering additional services using the elif (else-if) statement.
@@ -110,9 +113,22 @@ copy (followed by a number)
 
 Any other text to trigger the else statement.
 
+<img width="582" height="177" alt="Lab 114_4" src="https://github.com/user-attachments/assets/2b07fc7f-39d6-41d3-8db5-976d316cb804" />
+
+<img width="582" height="171" alt="Lab 114_5" src="https://github.com/user-attachments/assets/180c1a82-9171-47f4-b8c9-1e5a4fa70654" />
+
+<img width="581" height="171" alt="Lab 114_6" src="https://github.com/user-attachments/assets/bc3e9601-397b-450d-ad38-c35fcc51c2fe" />
+
+<img width="577" height="171" alt="Lab 114_7" src="https://github.com/user-attachments/assets/ec1644df-4160-40c7-a3a2-4a4d117026ff" />
+
+<img width="578" height="171" alt="Lab 114_8" src="https://github.com/user-attachments/assets/06c1e6a5-46bc-4bb7-a4bb-bdb84a1b5801" />
+
+
+
+
 Note: The if, elif, and else statements allow only one path to run at a time. The program stops checking other conditions once it finds a match.
 
-Screenshots:
-[Insert Screenshot of Elif Statement Operations Here]
+<img width="702" height="373" alt="Lab 114_9" src="https://github.com/user-attachments/assets/3bba5bbd-e10f-4071-bc46-6bae2cd8fd08" />
+
 
 ## Conclusions:  I have written a Python script that successfully uses decision-making logic with if, elif, and else statements.
